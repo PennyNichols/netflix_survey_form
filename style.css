@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,16 +9,19 @@
 
 html{
     font-size: 16px;
-    
+    font-family: 'Bebas Neue', cursive;    
+    font-weight: 100;
+    letter-spacing: .2 rem;
 }
 
 body{
     background-image: url(NetFlix_image.jpeg);
     color:white;
+    background-attachment: fixed;
 }
 
 #container {
-    max-width: 1240px;
+    max-width: 940px;
     background-color: rgba(0,0,0,0.3);
     margin: auto;
     margin-top:30px;
@@ -24,10 +29,11 @@ body{
 }
 
 #title{
-    font-size: 3.1rem;
+    font-size: 4rem;
     color: white;
-    font-family: 'Sorts Mill Goudy', serif;
-    letter-spacing: 0.05em;
+    font-family: 'Bebas Neue', cursive;    
+    letter-spacing: 0;
+    font-weight: 5000;
 }
 
 span{
@@ -35,12 +41,18 @@ span{
 }
 
 #description {
-    font-family: 'Sorts Mill Goudy', serif;
-    font-size: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2rem;
+    font-weight: 100;
 }
 
 #header {
     text-align: center;
+}
+
+label{
+    letter-spacing: .05rem;
+    font-weight: 100;
 }
 
 textarea {
@@ -56,9 +68,10 @@ textarea {
 
 #name, #age, #email, #dropdown, #feedback {
     width: 100%;
-    padding: 10px;
+    padding: 7px;
     margin-top: 10px;
-
+    letter-spacing: .05rem;
+    
 }
 
 .input-box {

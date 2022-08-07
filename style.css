@@ -25,6 +25,7 @@ body{
     background-color: rgba(0,0,0,0.3);
     margin: auto;
     margin-top:30px;
+    margin-bottom: 30px;
 
 }
 
@@ -32,8 +33,8 @@ body{
     font-size: 4rem;
     color: white;
     font-family: 'Bebas Neue', cursive;    
-    letter-spacing: 0;
-    font-weight: 5000;
+    letter-spacing: 10px;
+    font-weight: 900;
 }
 
 span{
